@@ -1,0 +1,12 @@
+C:\Users\MSI\source\repos\FileExplorer\bin\Debug\FileExplorer.exe.config
+C:\Users\MSI\source\repos\FileExplorer\bin\Debug\FileExplorer.exe
+C:\Users\MSI\source\repos\FileExplorer\bin\Debug\FileExplorer.pdb
+C:\Users\MSI\source\repos\FileExplorer\bin\Debug\MetroFramework.dll
+C:\Users\MSI\source\repos\FileExplorer\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\MSI\source\repos\FileExplorer\obj\Debug\FileExplorer.csprojAssemblyReference.cache
+C:\Users\MSI\source\repos\FileExplorer\obj\Debug\FileExplorer.Form1.resources
+C:\Users\MSI\source\repos\FileExplorer\obj\Debug\FileExplorer.Properties.Resources.resources
+C:\Users\MSI\source\repos\FileExplorer\obj\Debug\FileExplorer.csproj.GenerateResource.cache
+C:\Users\MSI\source\repos\FileExplorer\obj\Debug\FileExplorer.csproj.CopyComplete
+C:\Users\MSI\source\repos\FileExplorer\obj\Debug\FileExplorer.exe
+C:\Users\MSI\source\repos\FileExplorer\obj\Debug\FileExplorer.pdb
