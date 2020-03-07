@@ -28,10 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.trey = new System.Windows.Forms.NotifyIcon(this.components);
             this.SuspendLayout();
             // 
             // metroButton1
@@ -69,6 +71,12 @@
             this.textBox1.Size = new System.Drawing.Size(357, 20);
             this.textBox1.TabIndex = 4;
             // 
+            // trey
+            // 
+            this.trey.Text = "trey";
+            this.trey.Visible = true;
+            this.trey.Click += new System.EventHandler(this.trey_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -80,6 +88,7 @@
             this.Controls.Add(this.metroButton1);
             this.Name = "Form1";
             this.Text = "File Explorer by Matthew Golovtsov";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -92,6 +101,7 @@
         private MetroFramework.Controls.MetroButton metroButton2;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.NotifyIcon trey;
     }
 }
 

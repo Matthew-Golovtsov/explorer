@@ -19,6 +19,9 @@ namespace FileExplorer
         public Form1()
         {
             InitializeComponent();
+            trey.Icon = SystemIcons.Asterisk;
+            this.ShowInTaskbar = false;
+            trey.Click += trey_Click;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -94,6 +97,19 @@ namespace FileExplorer
             {
                 Process.Start(Path.Combine(textBox1.Text, listBox1.SelectedItem.ToString()));
             }
+        }
+
+        private void trey_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            this.Show();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            this.Hide();
+
         }
     }
 }
